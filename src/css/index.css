@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Oxanium:wght@300;400;700&family=Roboto:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Oxanium";
+  color: white;
+  list-style: none;
+}
+
+body {
+  background-image: url("/src/img/bg-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.selecao-de-personagens {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 25px;
+}
+
+.personagens {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.personagens h1 {
+  text-align: center;
+}
+
+.lista-de-personagens {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.personagens-selecionado {
+  display: flex;
+  flex-direction: column;
+}
+
+.personagens-selecionado img {
+  height: 360px;
+}
+
+.personagens-selecionado .informacoes-personagem {
+  text-align: center;
+}
+
+section div p {
+  width: 415px;
+}
