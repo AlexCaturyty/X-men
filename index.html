@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/css/index.css" />
     <link rel="icon" href="./src/img/bg-desktop.jpg" />
-
+    <script src="./src/js/script.js"></script>
     <title>Projeto X-men</title>
   </head>
 
@@ -18,29 +18,29 @@
       <section class="personagens">
         <h1 class="titulo">SELECIONE UM PERSONAGEM</h1>
         <ul class="lista-de-personagens">
-          <li class="personagem" id="ciclope">
-            <img src="./src/img/card-ciclope.jpg" alt="" />
+          <li class="personagem" >
+            <img src="./src/img/card-ciclope.jpg" alt="card-ciclope" onmouseover="ciclope()"/>
           </li>
-          <li class="personagem" id="jean">
-            <img src="./src/img/card-jean-grey.jpg" alt="" />
+          <li class="personagem" id="jean-grey">
+            <img src="./src/img/card-jean-grey.jpg" alt="" onmouseover="jeangrey()" />
           </li>
-          <li class="personagem" id="lince">
-            <img src="./src/img/card-lince-negra.jpg" alt="" />
+          <li class="personagem" id="lince-negra" >
+            <img src="./src/img/card-lince-negra.jpg" alt="" onmouseover="lincenegra()"/>
           </li>
           <li class="personagem" id="magneto">
-            <img src="./src/img/card-magneto.jpg" alt="" />
+            <img src="./src/img/card-magneto.jpg" alt="" onmouseover="magneto()"/>
           </li>
           <li class="personagem" id="noturno">
-            <img src="./src/img/card-noturno.jpg" alt="" />
+            <img src="./src/img/card-noturno.jpg" alt="" onmouseover="noturno()"/>
           </li>
           <li class="personagem" id="tempestade">
-            <img src="./src/img/card-tempestade.jpg" alt="" />
+            <img src="./src/img/card-tempestade.jpg" alt="" onmouseover="tempestade()"/>
           </li>
           <li class="personagem" id="vampira">
-            <img src="./src/img/card-vampira.jpg" alt="" />
+            <img src="./src/img/card-vampira.jpg" alt="" onmouseover="vampira()"/>
           </li>
           <li class="personagem" id="wolverine">
-            <img src="./src/img/card-wolverine.jpg" alt="" />
+            <img src="./src/img/card-wolverine.jpg" alt="" onmouseover="wolverine()"/>
           </li>
         </ul>
       </section>
@@ -52,7 +52,7 @@
         />
 
         <div class="informacoes-personagem">
-          <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+          <h2 class="nome-personagem" id="nome-personagem">CICLOPE</h2>
           <p class="descricao-personagem" id="descricao-personagem">
             Ele tem o poder de disparar rajadas opticas por um acidente que
             aconteceu com ele quando criança, mas não consegue controlá-los

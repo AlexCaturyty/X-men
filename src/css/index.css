@@ -35,6 +35,12 @@ header {
   justify-content: center;
 }
 
+.personagem{
+  cursor: pointer;
+}
+
+
+
 .personagens h1 {
   text-align: center;
 }
