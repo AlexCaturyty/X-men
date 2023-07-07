@@ -35,11 +35,20 @@ header {
   justify-content: center;
 }
 
-.personagem{
-  cursor: pointer;
+.selecao-de-personagens .personagens .titulo {
+  font-size: 20px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  border-bottom: 2px solid;#47f4ff
 }
 
+.personagem img:hover {
+  box-shadow: 0px 0px 24px 5px #0271f7
+}
 
+.personagem {
+  cursor: pointer;
+}
 
 .personagens h1 {
   text-align: center;
@@ -63,7 +72,17 @@ header {
 
 .personagens-selecionado .informacoes-personagem {
   text-align: center;
+  
 }
+
+
+.informacoes-personagem .nome-personagem{
+  font-size: 20px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  border-bottom: 2px solid;#47f4ff
+}
+
 
 section div p {
   width: 415px;
