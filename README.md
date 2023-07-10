@@ -6,7 +6,7 @@
 ## 📱 Mobile
 <div style="display: flex;">
   <img src=".github/HomeMobile.png" alt="Demonstração do projeto" width="45%" />
-  <img src=".github/HomeMobile2.png" alt="Demonstração do projeto" width="45%" />
+  <img src=".github/HomeMobile2.png" alt="Demonstração do projeto" width="50%" />
 </div>
 
 ## 📚 Projeto
