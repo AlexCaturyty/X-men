@@ -11,9 +11,8 @@
 body {
   background-image: url("../img/bg-desktop.jpg");
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   background-position: center top;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
@@ -39,15 +38,11 @@ header {
   font-size: 20px;
   letter-spacing: 0.3px;
   text-transform: uppercase;
-  border-bottom: 2px solid;#47f4ff
+  border-bottom: 2px solid #47f4ff;
 }
 
 .personagem img:hover {
-  box-shadow: 0px 0px 24px 5px #0271f7
-}
-
-.personagem {
-  cursor: pointer;
+  box-shadow: 0px 0px 24px 5px #0271f7;
 }
 
 .personagens h1 {
@@ -72,17 +67,14 @@ header {
 
 .personagens-selecionado .informacoes-personagem {
   text-align: center;
-  
 }
 
-
-.informacoes-personagem .nome-personagem{
+.informacoes-personagem .nome-personagem {
   font-size: 20px;
   letter-spacing: 0.3px;
   text-transform: uppercase;
-  border-bottom: 2px solid;#47f4ff
+  border-bottom: 2px solid #47f4ff;
 }
-
 
 section div p {
   width: 415px;
