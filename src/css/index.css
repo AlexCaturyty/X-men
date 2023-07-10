@@ -69,9 +69,8 @@ header {
   text-align: center;
 }
 
-.informacoes-personagem{
+.informacoes-personagem {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.871), transparent);
-  
 }
 
 .informacoes-personagem .nome-personagem {
@@ -79,12 +78,30 @@ header {
   letter-spacing: 0.3px;
   text-transform: uppercase;
   border-bottom: 2px solid #47f4ff;
-  
-  
 }
-
-
 
 section div p {
   width: 415px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .selecao-de-personagens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+  }
+  .lista-de-personagens {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .personagens-selecionado img {
+    height: 250px;
+  }
+  
+  section div p {
+    width: 100%;
+  }
+
 }
