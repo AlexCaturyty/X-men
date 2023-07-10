@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url("/src/img/bg-desktop.jpg");
+  background-image: url("../img/bg-desktop.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
