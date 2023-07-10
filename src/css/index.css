@@ -87,13 +87,13 @@ section div p {
 /* Responsive Styles */
 @media (max-width: 768px) {
   .selecao-de-personagens {
-    display: flex;
+    
     flex-direction: column;
-    justify-content: center;
+    
     padding: 25px;
   }
   .lista-de-personagens {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
   }
   
   .personagens-selecionado img {
